@@ -1,5 +1,7 @@
-from models import Book, Library
 import uuid
+
+from models import Book, Library
+
 
 def test_create_book():
     book = Book("George Orwell", "1984")
@@ -17,8 +19,6 @@ def test_book_id():
     book1 = Book("Author1", "Book1")
     book2 = Book("Author2", "Book2")
     assert book1.inn != book2.inn
-
-
 
 
 def test_add_book():
