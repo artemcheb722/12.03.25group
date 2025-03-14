@@ -3,11 +3,15 @@ name = "12-03-25group"
 version = "0.1.0"
 description = ""
 authors = [
-    {name = "Artem",email = "artem.chebanyuk@gmail.com@email.com"}
+
 ]
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "flake8 (>=7.1.2,<8.0.0)",
+    "isort (>=6.0.1,<7.0.0)",
+    "pytest (>=8.3.5,<9.0.0)",
+    "black (>=25.1.0,<26.0.0)"
 ]
 
 [tool.poetry]

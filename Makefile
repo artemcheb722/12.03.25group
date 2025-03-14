@@ -1,5 +1,8 @@
 
-
+PHONY: test
+test:
+	@echo 'tests started ....'
+	@set PYTHONPASS=. && python -m pytest -v
 
 
 
