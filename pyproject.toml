@@ -12,12 +12,18 @@ dependencies = [
     "isort (>=6.0.1,<7.0.0)",
     "pytest (>=8.3.5,<9.0.0)",
     "black (>=25.1.0,<26.0.0)",
-    "passlib[bsrypt] (>=1.7.4,<2.0.0)"
+    "passlib[bsrypt] (>=1.7.4,<2.0.0)",
+    "pyotp (>=2.9.0,<3.0.0)",
+    "qrcode (>=8.0,<9.0)",
+    "pillow (>=11.1.0,<12.0.0)",
+    "pyjwt (>=2.10.1,<3.0.0)"
 ]
 
 [tool.poetry]
 packages = [{include = "12"}]
 
+[tool.poetry.dependencies]
+python = ">=3.12,<4.0"
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
